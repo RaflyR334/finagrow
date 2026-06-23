@@ -222,7 +222,7 @@ const Settings: React.FC = () => {
                 {language === 'id' ? 'Bahasa & Personalisasi' : 'Language & Personalization'}
               </h3>
               <p className="text-[10px] text-slate-400 dark:text-slate-500">
-                {language === 'id' ? 'Kelola bahasa sistem dan tampilan tema FMS' : 'Adjust ledger translation and interface dark/light theme'}
+                {language === 'id' ? 'Kelola bahasa sistem dan tampilan tema FINAGROW' : 'Adjust ledger translation and interface dark/light theme'}
               </p>
             </div>
           </div>
@@ -368,7 +368,7 @@ const Settings: React.FC = () => {
             <div>
               <h3 className="text-xs font-black text-slate-800 dark:text-white uppercase tracking-wider">{t('moduleManager')}</h3>
               <p className="text-[10px] text-slate-400 dark:text-slate-500 mt-0.5">
-                {language === 'en' ? 'Manage active operational FMS system components' : 'Kelola komponen operasional aktif sistem FMS'}
+                {language === 'en' ? 'Manage active operational FINAGROW system components' : 'Kelola komponen operasional aktif sistem FINAGROW'}
               </p>
             </div>
           </div>
@@ -403,7 +403,7 @@ const Settings: React.FC = () => {
                <p className="text-[11px] text-slate-400 dark:text-slate-500 max-w-sm mx-auto leading-normal mt-1">
                  {language === 'en' 
                     ? 'Structural module toggling is reserved for corporate owners and primary administrators only. Current profile is Standard User.'
-                    : 'Pengaturan aktif modul FMS hanya diperbolehkan untuk pemilik korporasi atau administrator utama. Profil Anda saat ini adalah Standard User.'}
+                    : 'Pengaturan aktif modul FINAGROW hanya diperbolehkan untuk pemilik korporasi atau administrator utama. Profil Anda saat ini adalah Standard User.'}
                </p>
              </div>
            </div>
@@ -536,7 +536,7 @@ const Settings: React.FC = () => {
                 <p className="text-[11px] text-slate-500 dark:text-slate-400 leading-normal">
                   {language === 'id' 
                      ? 'Apakah Anda ingin mengunduh salinan cadangan lengkap database Ledger terenkripsi format JSON untuk diarsipkan?'
-                     : 'Would you like to export and download a full structural snapshot copy of your active FMS Ledger database as a JSON backup file?'}
+                     : 'Would you like to export and download a full structural snapshot copy of your active FINAGROW Ledger database as a JSON backup file?'}
                 </p>
                 <div className="flex gap-2.5 border-t border-slate-50 dark:border-slate-800/40 pt-4">
                   <button

@@ -13,7 +13,7 @@ const ai = new GoogleGenAI({ apiKey: API_KEY });
 export const getAIFinancialAdvice = async (prompt: string, context: string): Promise<string> => {
   try {
     const fullPrompt = `
-      As a world-class financial analyst AI for a Financial Management System, your name is FMS Pro AI.
+      As a world-class financial analyst AI for the FINAGROW Financial Management & Growth System, your name is FINAGROW AI.
       Your goal is to provide insightful, clear, and actionable financial advice based on the user's query and the current financial context.
       Do not provide generic advice. Be specific and data-driven where possible.
       Format your response in clean Markdown.

@@ -33,7 +33,7 @@ interface AuthProps {
 const localAuthTrans = {
   en: {
     backToHome: "Back to Home",
-    signInTitle: "Access FMS Pro Suite",
+    signInTitle: "Access FINAGROW Suite",
     signInSubtitle: "Connect to your unified secure financial ledger",
     signUpTitle: "Register New Account",
     signUpSubtitle: "Start your 14-day free trial. No credit card required.",
@@ -51,7 +51,7 @@ const localAuthTrans = {
     forgotPassword: "Forgot password?",
     signInBtn: "Sign In Securely",
     signUpBtn: "Register & Gain Access",
-    noAccount: "Don't have an FMS Pro account?",
+    noAccount: "Don't have a FINAGROW account?",
     haveAccount: "Already have an account?",
     trialOffer: "Start your 14-day free trial",
     loginInstead: "Sign In instead",
@@ -78,7 +78,7 @@ const localAuthTrans = {
   },
   id: {
     backToHome: "Kembali ke Beranda",
-    signInTitle: "Masuk ke FMS Pro Suite",
+    signInTitle: "Masuk ke FINAGROW Suite",
     signInSubtitle: "Sambungkan dengan buku besar keuangan terpadu Anda",
     signUpTitle: "Daftar Akun Baru",
     signUpSubtitle: "Mulai uji coba gratis 14 hari Anda. Tanpa kartu kredit.",
@@ -96,7 +96,7 @@ const localAuthTrans = {
     forgotPassword: "Lupa kata sandi?",
     signInBtn: "Masuk Secara Aman",
     signUpBtn: "Daftar & Dapatkan Akses",
-    noAccount: "Belum memiliki akun FMS Pro?",
+    noAccount: "Belum memiliki akun FINAGROW?",
     haveAccount: "Sudah memiliki akun?",
     trialOffer: "Mulai uji coba gratis 14 hari",
     loginInstead: "Masuk saja",
@@ -422,7 +422,7 @@ const Auth: React.FC<AuthProps> = ({ mode: initialMode, onNavigate }) => {
         <div className="relative z-10 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-gradient-to-tr from-emerald-500 to-primary-500 rounded-2xl flex items-center justify-center text-white font-black text-xl shadow-md shadow-primary-500/20 active:scale-95 transition-transform" onClick={() => onNavigate('landing')}>F</div>
-            <span className="font-bold text-lg tracking-tight font-sans">FMS Pro</span>
+            <span className="font-bold text-lg tracking-tight font-sans uppercase">FINAGROW</span>
           </div>
           <span className="text-[10px] bg-slate-800/80 border border-slate-700/60 text-emerald-400 font-mono font-bold tracking-widest px-3 py-1 rounded-full uppercase">
             {t('liveIndicator')}
@@ -784,7 +784,7 @@ const Auth: React.FC<AuthProps> = ({ mode: initialMode, onNavigate }) => {
 
         {/* Small Responsive Footer indicators */}
         <div className="w-full text-center text-[10px] text-slate-400 select-none py-2 font-semibold">
-          © 2026 FMS Pro Suite Inc. All Rights Reserved. ISO 27001 Certified.
+          © 2026 FINAGROW Suite Inc. All Rights Reserved. ISO 27001 Certified.
         </div>
       </div>
 

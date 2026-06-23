@@ -183,7 +183,7 @@ export const translations: Translations = {
     salesAndPurchases: "Sales & Purchases (AR/AP)",
     // AI Chatbot
     aiFinancialAssistant: "AI Financial Assistant",
-    aiChatbotGreeting: "Hello! I'm FMS Pro AI. Ask me about your financial data, like \"What are the key drivers of my profit?\" or \"Suggest ways to reduce expenses.\"",
+    aiChatbotGreeting: "Hello! I'm FINAGROW AI. Ask me about your financial data, like \"What are the key drivers of my profit?\" or \"Suggest ways to reduce expenses.\"",
     askFinancialQuestion: "Ask a financial question...",
     // Budgeting
     addNewBudget: "Add New Budget",
@@ -393,7 +393,7 @@ export const translations: Translations = {
     salesAndPurchases: "Penjualan & Pembelian (AR/AP)",
     // AI Chatbot
     aiFinancialAssistant: "Asisten Keuangan AI",
-    aiChatbotGreeting: "Halo! Saya FMS Pro AI. Tanyakan tentang data keuangan Anda, seperti \"Apa pendorong utama keuntungan saya?\" atau \"Sarankan cara mengurangi biaya.\"",
+    aiChatbotGreeting: "Halo! Saya FINAGROW AI. Tanyakan tentang data keuangan Anda, seperti \"Apa pendorong utama keuntungan saya?\" atau \"Sarankan cara mengurangi biaya.\"",
     askFinancialQuestion: "Ajukan pertanyaan keuangan...",
     // Budgeting
     addNewBudget: "Tambah Anggaran Baru",

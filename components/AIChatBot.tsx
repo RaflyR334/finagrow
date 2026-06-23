@@ -118,9 +118,9 @@ const AIChatBot: React.FC<AIChatBotProps> = ({ onClose }) => {
     Aggregated Real-time Cash Balance: ${formatCurrency(cashBalance)}
     Recent structural accounting ledger context:
     ${formatTxList}
-    FMS Registered Products: ${state.inventory?.length || 0} items
-    FMS Managed Corporate Projects: ${state.projects?.length || 0} active
-    FMS Managed Registered Vendors: ${state.vendors?.length || 0} corporations
+    FINAGROW Registered Products: ${state.inventory?.length || 0} items
+    FINAGROW Managed Corporate Projects: ${state.projects?.length || 0} active
+    FINAGROW Managed Registered Vendors: ${state.vendors?.length || 0} corporations
   `;
 
   // Dynamic Prompt starter chips
@@ -443,8 +443,8 @@ const AIChatBot: React.FC<AIChatBotProps> = ({ onClose }) => {
 
                     <div className="space-y-1 max-w-[84%] sm:max-w-[78%]">
                       {/* Name label */}
-                      <span className="text-[9px] font-bold text-slate-400 dark:text-slate-500 block px-1">
-                        {isUser ? (language === 'id' ? 'Anda' : 'You') : 'FMS Pro AI'} • {msg.timestamp}
+                      <span className="text-[9px] font-bold text-slate-400 dark:text-slate-505 block px-1">
+                        {isUser ? (language === 'id' ? 'Anda' : 'You') : 'FINAGROW AI'} • {msg.timestamp}
                       </span>
 
                       {/* Msg bubble card */}
@@ -506,8 +506,8 @@ const AIChatBot: React.FC<AIChatBotProps> = ({ onClose }) => {
                 </div>
                 
                 <div className="space-y-1">
-                  <span className="text-[9px] font-bold text-slate-400 dark:text-slate-500 block px-1">
-                    FMS Pro AI • {language === 'id' ? 'Menganalisis...' : 'Analyzing...'}
+                  <span className="text-[9px] font-bold text-slate-400 dark:text-slate-550 block px-1">
+                    FINAGROW AI • {language === 'id' ? 'Menganalisis...' : 'Analyzing...'}
                   </span>
                   
                   <div className="p-3 bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-800 rounded-2xl rounded-tl-sm flex items-center gap-2.5">
@@ -554,8 +554,8 @@ const AIChatBot: React.FC<AIChatBotProps> = ({ onClose }) => {
           
           <p className="text-[8.5px] leading-relaxed text-slate-400 dark:text-slate-505 font-mono text-center mt-3 tracking-snug">
             {language === 'id' 
-              ? 'FMS Pro AI menganalisis pembukuan untuk memberikan saran. Konfirmasi data keuangan manual Anda secara berkala.' 
-              : 'FMS Pro AI synthesizes raw general journals to advise. Confirm critical balances manually for reporting.'}
+              ? 'FINAGROW AI menganalisis pembukuan untuk memberikan saran. Konfirmasi data keuangan manual Anda secara berkala.' 
+              : 'FINAGROW AI synthesizes raw general journals to advise. Confirm critical balances manually for reporting.'}
           </p>
         </footer>
 

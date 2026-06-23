@@ -1,5 +1,6 @@
 {
-  "name": "Remix: FINAL NEW 1 FMS Pro - Scalable Financial Management System",
-  "description": "A comprehensive, modular, and scalable Financial Management System (FMS) designed to grow with your business, from UMKM to Enterprise. Features include dashboard analytics, transaction management, reporting, and an AI-powered financial assistant.",
-  "requestFramePermissions": []
+  "name": "FINAGROW - Scalable Financial Management & Business Growth System",
+  "description": "FINAGROW is an all-in-one scalable financial management platform designed to accelerate business growth, from local UMKM / SMEs to global enterprises. Automate bookkeeping, manage multi-entity accounting, track cash flow, generate tax reports, and leverage AI financial planning tools to power your corporate expansion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

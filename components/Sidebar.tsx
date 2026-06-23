@@ -78,12 +78,12 @@ const Sidebar: React.FC<SidebarProps> = ({
         {/* Brand Area */}
         <div className="flex items-center justify-between px-6 h-20 border-b border-slate-100 dark:border-slate-800/50 flex-shrink-0">
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 bg-gradient-to-tr from-primary-500 to-indigo-600 rounded-xl flex items-center justify-center text-white font-black text-lg shadow-md shadow-primary-500/10">
+            <div className="w-9 h-9 bg-gradient-to-tr from-emerald-500 to-indigo-600 rounded-xl flex items-center justify-center text-white font-black text-lg shadow-md shadow-primary-500/10">
               F
             </div>
             <div>
-              <h1 className="text-sm font-extrabold text-slate-850 dark:text-white tracking-wide leading-none">
-                FMS Pro
+              <h1 className="text-sm font-extrabold text-slate-850 dark:text-white tracking-wide leading-none uppercase">
+                FINAGROW
               </h1>
               <p className="text-[10px] text-slate-400 dark:text-slate-500 font-extrabold tracking-widest uppercase mt-1">
                 {isPro ? 'Premium Pro' : 'Free Suite'}

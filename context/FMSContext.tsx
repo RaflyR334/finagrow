@@ -99,7 +99,7 @@ export const DEFAULT_STATE: FMSState = {
     { id: '4', payPeriod: 'August 1 - August 31, 2024', runDate: '2024-08-25', totalGross: 251000000, totalTaxes: 5100000, totalNet: 245900000, status: 'Scheduled' },
   ],
   notifications: [
-    { id: 'N1', title: 'Sistem FMS Pro Aktif', message: 'Selamat datang di FMS Pro! Semua sistem pembukuan utama online.', date: today(), isRead: false, type: 'info' }
+    { id: 'N1', title: 'Sistem FINAGROW Aktif', message: 'Selamat datang di FINAGROW! Semua sistem pembukuan utama online.', date: today(), isRead: false, type: 'info' }
   ],
 };
 

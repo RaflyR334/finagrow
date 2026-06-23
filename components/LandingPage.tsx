@@ -36,17 +36,17 @@ const landingTranslations = {
     heroBadge: "🚀 AI-Powered Financial Control Station",
     heroTitle: "Financial Management",
     heroTitleSub: "Made Scalable.",
-    heroDesc: "From emerging local UMKM to global conglomerates, FMS Pro automates your financial workflows. Consolidate multi-entity sheets, track real-time payments, execute payroll in one click, and access certified tax reports — all enhanced by an AI financial partner.",
+    heroDesc: "From emerging local UMKM to global conglomerates, FINAGROW automates your financial workflows. Consolidate multi-entity sheets, track real-time payments, execute payroll in one click, and access certified tax reports — all enhanced by an AI financial partner.",
     ctaTrial: "Start 14-Day Free Trial",
     ctaDemo: "Simulate Live System",
     
     // Issues & Solutions
     issuesTitle: "Common Pitfalls of Manual Bookkeeping",
-    solTitle: "The Future of Accounting: FMS Pro",
+    solTitle: "The Future of Accounting: FINAGROW",
     issuesLabel: "The Nightmares",
     solLabel: "The Remedies",
     issuesDesc: "Why traditional spreadsheets are silently draining your productivity and growth:",
-    solDesc: "How FMS Pro instantly revitalizes your business efficiency via active modules:",
+    solDesc: "How FINAGROW instantly revitalizes your business efficiency via active modules:",
     
     issue1: "Manual Spreadsheet Errors",
     issue1Desc: "Typing mistakes lead to huge accounting variances and untreatable losses in cash flow.",
@@ -78,7 +78,7 @@ const landingTranslations = {
     
     // Testimony
     testiTitle: "Loved by CFOs & Founders Across the Country",
-    testiSub: "See how modern teams scale their operations and focus on growth with FMS Pro.",
+    testiSub: "See how modern teams scale their operations and focus on growth with FINAGROW.",
     
     // Pricing
     pricingTitle: "Incredible Plans Tailored for Your Growth Stage",
@@ -111,17 +111,17 @@ const landingTranslations = {
     heroBadge: "🚀 Pusat Keu No.1 untuk UMKM & Korporasi",
     heroTitle: "Manajemen Keuangan",
     heroTitleSub: "Jadi Lebih Skalabel.",
-    heroDesc: "Dari UMKM lokal hingga korporasi besar, FMS Pro mengotomatiskan alur kerja keuangan Anda. Konsolidasikan multi-entitas, lacak transaksi real-time, jalankan penggajian sekali klik, dan miliki perhitungan pajak patuh regulasi — didukung asisten cerdas AI.",
+    heroDesc: "Dari UMKM lokal hingga korporasi besar, FINAGROW mengotomatiskan alur kerja keuangan Anda. Konsolidasikan multi-entitas, lacak transaksi real-time, jalankan penggajian sekali klik, dan miliki perhitungan pajak patuh regulasi — didukung asisten cerdas AI.",
     ctaTrial: "Mulai Uji Coba 14 Hari",
     ctaDemo: "Simulasi Sistem Demo",
     
     // Issues & Solutions
     issuesTitle: "Mimpi Buruk Pembukuan Manual",
-    solTitle: "Masa Depan Keuangan: FMS Pro",
+    solTitle: "Masa Depan Keuangan: FINAGROW",
     issuesLabel: "Tantangan Klasik",
     solLabel: "Solusi Cerdas",
     issuesDesc: "Mengapa spreadsheet tradisional diam-diam menghambat produktivitas dan ekspansi Anda:",
-    solDesc: "Bagaimana FMS Pro memulihkan efisiensi bisnis Anda secara menyeluruh melalui modul aktif:",
+    solDesc: "Bagaimana FINAGROW memulihkan efisiensi bisnis Anda secara menyeluruh melalui modul aktif:",
     
     issue1: "Salah Input Spreadsheet Manual",
     issue1Desc: "Typo kecil di Excel menghasilkan selisih laporan saldo besar yang sulit dideteksi ditiap kuartal.",
@@ -153,7 +153,7 @@ const landingTranslations = {
     
     // Testimony
     testiTitle: "Dipercaya oleh CFO & Pendiri Bisnis Terbaik",
-    testiSub: "Lihat bagaimana tim modern mengotomatiskan keuangan mereka untuk fokus merancang pertumbuhan bisnis bersama FMS Pro.",
+    testiSub: "Lihat bagaimana tim modern mengotomatiskan keuangan mereka untuk fokus merancang pertumbuhan bisnis bersama FINAGROW.",
     
     // Pricing
     pricingTitle: "Pilihan Paket Harga Terbaik Sesuai Skala Bisnis Anda",
@@ -311,7 +311,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-black tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 dark:from-white dark:to-slate-300">
-                FMS <span className="text-primary-500 dark:text-primary-400">Pro</span>
+                FINAGROW <span className="text-primary-500 dark:text-primary-400"></span>
               </span>
               <span className="text-[9px] font-mono tracking-wider uppercase text-slate-500 dark:text-slate-400">Scalable Financial Hub</span>
             </div>
@@ -938,7 +938,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
                     <BotIcon className="w-5 h-5 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-sm font-bold text-slate-900 dark:text-white">FMS Pro Cognitive Consultant</h3>
+                    <h3 className="text-sm font-bold text-slate-900 dark:text-white">FINAGROW Cognitive Consultant</h3>
                     <p className="text-[10px] text-slate-400">Online • Live Gemini 1.5 PRO Model Integration</p>
                   </div>
                 </div>
@@ -949,7 +949,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
                   <div className="space-y-4 text-xs font-medium">
                     <div className="flex items-start space-x-2 justify-end">
                       <div className="bg-primary-50 dark:bg-primary-950/60 text-primary-900 dark:text-primary-200 p-3 rounded-2xl rounded-tr-none max-w-[80%] border border-primary-100/50 dark:border-primary-900/30">
-                        "FMS AI, analyze our Q2 margin metrics. Where is the highest leak?"
+                        "FINAGROW AI, analyze our Q2 margin metrics. Where is the highest leak?"
                       </div>
                     </div>
 
@@ -988,15 +988,15 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
           <div className="text-center mb-8">
             <span className="inline-flex items-center space-x-1 px-3 py-1 rounded-full bg-primary-100 dark:bg-primary-950/80 text-primary-700 dark:text-primary-300 text-xs font-black uppercase tracking-widest mb-3 border border-primary-200/40 dark:border-primary-800/40">
               <span>🎥</span>
-              <span>{language === 'en' ? 'FMS PRO OFFICIAL VIDEO TOUR' : 'VIDEO TOUR RESMI FMS PRO'}</span>
+              <span>{language === 'en' ? 'FINAGROW OFFICIAL VIDEO TOUR' : 'VIDEO TOUR RESMI FINAGROW'}</span>
             </span>
             <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white">
-              {language === 'en' ? 'Watch FMS Pro in Action (3-Min Quick Tour)' : 'Tonton Demo Video Sistem Real FMS Pro (3 Menit)'}
+              {language === 'en' ? 'Watch FINAGROW in Action (3-Min Quick Tour)' : 'Tonton Demo Video Sistem Real FINAGROW (3 Menit)'}
             </h3>
             <p className="text-xs sm:text-sm text-slate-500 mt-2 max-w-xl mx-auto">
               {language === 'en' 
                 ? 'Deconstruct manual bookkeeping inefficiencies. See how our automation handles transactions, taxes and payroll flawlessly.' 
-                : 'Pahami bagaimana FMS Pro memotong 90% waktu administrasi pembukuan dan pajak melalui pilar otomatisasi tercanggih kami.'}
+                : 'Pahami bagaimana FINAGROW memotong 90% waktu administrasi pembukuan dan pajak melalui pilar otomatisasi tercanggih kami.'}
             </p>
           </div>
 
@@ -1286,7 +1286,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
               <div className="border-b border-slate-800 pb-4 mb-4 flex items-center justify-between">
                 <div>
                   <span className="text-[10px] font-black uppercase tracking-widest text-primary-400 font-mono">Chapter {videoChapter + 1} of 3</span>
-                  <h4 className="text-lg sm:text-xl font-black text-white">FMS Pro Interactive System Walkthrough</h4>
+                  <h4 className="text-lg sm:text-xl font-black text-white">FINAGROW Interactive System Walkthrough</h4>
                 </div>
                 <span className="text-xs font-mono text-slate-500 mr-8 hidden sm:inline">Press ESC to exit</span>
               </div>
@@ -1355,7 +1355,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
 
                         <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-left space-y-2 text-[10px] font-mono">
                           <p className="text-slate-400 italic">"User: Analyze our logistics leakage..."</p>
-                          <p className="text-violet-400 font-bold">"FMS AI: Detected 22% leak inside Lestari branch B mileage claims. Central approvals will secure Rp 45M payout recovery."</p>
+                          <p className="text-violet-400 font-bold">"FINAGROW AI: Detected 22% leak inside Lestari branch B mileage claims. Central approvals will secure Rp 45M payout recovery."</p>
                         </div>
                       </div>
                     )}
@@ -1365,12 +1365,12 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
                   <div className="bg-slate-950/80 p-3 rounded-xl border border-slate-800 text-center text-xs sm:text-sm font-semibold max-w-2xl mx-auto text-primary-300">
                     {videoChapter === 0 && (
                       language === 'en' 
-                        ? '"FMS Pro establishes perfect zero-error ledger logs by updating entries simultaneously across all multi-entity tabs."'
-                        : '"FMS Pro menghapus total resiko salah ketik akuntansi dengan memposting transaksi jurnal ke buku besar cabang secara real-time."'
+                        ? '"FINAGROW establishes perfect zero-error ledger logs by updating entries simultaneously across all multi-entity tabs."'
+                        : '"FINAGROW menghapus total resiko salah ketik akuntansi dengan memposting transaksi jurnal ke buku besar cabang secara real-time."'
                     )}
                     {videoChapter === 1 && (
                       language === 'en'
-                        ? '"Send salaries securely. FMS Pro calculates PPh 21 guidelines dynamically and generates submission-ready tax documents."'
+                        ? '"Send salaries securely. FINAGROW calculates PPh 21 guidelines dynamically and generates submission-ready tax documents."'
                         : '"Lupakan sakit kepala pajak bulanan. Hitung PPh 21 karyawan dan terbitkan SPT Masa Pajak digital patuh regulasi Kementerian Keuangan."'
                     )}
                     {videoChapter === 2 && (
@@ -1463,7 +1463,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
                     }}
                     className="px-5 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-black transition-all cursor-pointer shadow-md shadow-emerald-700/10"
                   >
-                    Join FMS Pro Today
+                    Join FINAGROW Today
                   </button>
                 </div>
               </div>
@@ -1779,7 +1779,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
                   <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                 </div>
                 <p className="text-slate-700 dark:text-slate-300 text-xs font-semibold leading-relaxed mb-6 block relative z-10">
-                  "FMS Pro multi-entity dashboard is a true game-changer. What used to take our accounting analysts 40 hours of manual Excel stitching and currency adjustments every month is now finished live in seconds. Outstanding ROI!"
+                  "FINAGROW multi-entity dashboard is a true game-changer. What used to take our accounting analysts 40 hours of manual Excel stitching and currency adjustments every month is now finished live in seconds. Outstanding ROI!"
                 </p>
                 
                 {selectedCaseStudyId === 1 && (
@@ -1821,7 +1821,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
                   <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                 </div>
                 <p className="text-slate-700 dark:text-slate-300 text-xs font-semibold leading-relaxed mb-6 block relative z-10">
-                  "We started with the Starter package as a humble craft UMKM branch. FMS Pro helped us organize cash receipts perfectly. Now that we scaled to 5 regional operations, upgrading plans were completely frictionless."
+                  "We started with the Starter package as a humble craft UMKM branch. FINAGROW helped us organize cash receipts perfectly. Now that we scaled to 5 regional operations, upgrading plans were completely frictionless."
                 </p>
 
                 {selectedCaseStudyId === 2 && (
@@ -1943,7 +1943,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
               {language === 'en' ? 'Get Back 10 Hours of Finance Overhead Every Single Week' : 'Hemat 10 Jam Pembukuan Manual Tiap Minggu Mulai Hari ini'}
             </h2>
             <p className="text-slate-600 dark:text-slate-300 max-w-2xl mx-auto mt-6 text-sm sm:text-base font-medium leading-relaxed">
-              {language === 'en' ? 'Try the full platform with all capabilities for 14 days. No payment card requested. Set up inside 60 seconds.' : 'Uji coba seluruh fitur premium FMS Pro selama 14 hari penuh. Tanpa kartu kredit. Selesai atur dalam 60 detik.'}
+              {language === 'en' ? 'Try the full platform with all capabilities for 14 days. No payment card requested. Set up inside 60 seconds.' : 'Uji coba seluruh fitur premium FINAGROW selama 14 hari penuh. Tanpa kartu kredit. Selesai atur dalam 60 detik.'}
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
@@ -1973,7 +1973,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
             <div className="col-span-1 md:col-span-2 space-y-4">
               <div className="flex items-center space-x-2">
                 <div className="w-8 h-8 bg-gradient-to-tr from-primary-600 to-emerald-500 rounded-lg flex items-center justify-center text-white font-black text-xl">F</div>
-                <span className="text-xl font-black text-slate-900 dark:text-white">FMS Pro</span>
+                <span className="text-xl font-black text-slate-900 dark:text-white">FINAGROW</span>
               </div>
               <p className="text-xs text-slate-500 dark:text-slate-400 max-w-sm leading-relaxed">
                 {local.contactText}
@@ -2042,7 +2042,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
           {/* Social media connections (100% faithful shapes to authentic brand guidelines) */}
           <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
             <span className="text-[11px] font-mono text-slate-400">
-              © 2026 FMS Pro Financial Hub. {local.copyright}
+              © 2026 FINAGROW Financial Hub. {local.copyright}
             </span>
 
             {/* Social media links mapping Contech.id properties */}
@@ -2150,8 +2150,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
                 <div className="text-xs text-slate-600 dark:text-slate-300 space-y-4 leading-relaxed font-medium">
                   <p>
                     {language === 'en' 
-                      ? 'At FMS Pro (managed under creators at Contech.id), we guarantee total security isolation of your financial ledgers. We do not sell, read, or distribute your client databases to third parties.'
-                      : 'Di FMS Pro (dikelola oleh Contech.id), kami menjamin isolasi keamanan total atas buku besar keuangan Anda. Kami tidak menjual, membaca, atau mendistribusikan database klien Anda kepada pihak ketiga.'}
+                      ? 'At FINAGROW (managed under creators at Contech.id), we guarantee total security isolation of your financial ledgers. We do not sell, read, or distribute your client databases to third parties.'
+                      : 'Di FINAGROW (dikelola oleh Contech.id), kami menjamin isolasi keamanan total atas buku besar keuangan Anda. Kami tidak menjual, membaca, atau mendistribusikan database klien Anda kepada pihak ketiga.'}
                   </p>
                   <p className="font-bold underline text-primary-600">
                     {language === 'en' 
@@ -2183,8 +2183,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
                 <div className="text-xs text-slate-600 dark:text-slate-300 space-y-4 leading-relaxed font-medium">
                   <p>
                     {language === 'en'
-                      ? 'By operating the FMS Pro platform, you acknowledge the terms of financial and accounting liability representation:'
-                      : 'Dengan menjalankan platform FMS Pro, Anda mengakui ketentuan representasi liabilitas keuangan dan akuntansi berikut:'}
+                      ? 'By operating the FINAGROW platform, you acknowledge the terms of financial and accounting liability representation:'
+                      : 'Dengan menjalankan platform FINAGROW, Anda mengakui ketentuan representasi liabilitas keuangan dan akuntansi berikut:'}
                   </p>
                   <p className="font-bold text-slate-900 dark:text-white">
                     {language === 'en' ? '1. Zero-Friction Upgrades & Downgrades' : '1. Upgrade & Downgrade Bebas Hambatan'}
@@ -2214,8 +2214,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
                 <div className="text-xs text-slate-600 dark:text-slate-300 space-y-4 leading-relaxed font-medium">
                   <p>
                     {language === 'en'
-                      ? 'FMS Pro practices enterprise-grade cybersecurity architectures with active guards:'
-                      : 'FMS Pro melatih arsitektur keamanan siber tingkat korporat dengan pengamanan aktif:'}
+                      ? 'FINAGROW practices enterprise-grade cybersecurity architectures with active guards:'
+                      : 'FINAGROW melatih arsitektur keamanan siber tingkat korporat dengan pengamanan aktif:'}
                   </p>
                   <p className="font-bold text-emerald-600">
                     {language === 'en' ? '✓ ISO/IEC 27001 Infrastructure TLS' : '✓ Server TLS Bersertifikat ISO/IEC 27001'}
